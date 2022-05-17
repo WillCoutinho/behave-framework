@@ -1,5 +1,4 @@
 
-
 def before_tag(context, tag):
     if tag == 'create_employee':
         context.execute_steps(u"""

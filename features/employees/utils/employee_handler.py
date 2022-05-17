@@ -1,4 +1,3 @@
-from faker import Faker
 
 
 def header_payload():
@@ -6,11 +5,10 @@ def header_payload():
 
 
 def employee_payload():
-    fake = Faker()
+    from faker import Faker
     
-    employee_obj = {
+    fake = Faker()
+    return {
         "name": fake.name(),
         "job": fake.job()
     }
-    
-    return employee_obj
