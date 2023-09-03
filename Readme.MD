@@ -50,7 +50,7 @@ After that it should be possible to check the _Allure_ version (``allure --versi
 ### Git Clone and Libs Install
 
 Create a folder that will receive the repository files.\
-Clone the repo [Behave Framework](https://gitlab.com/Coutinho_W/behave-framework.git) and access the cloned folder.
+Clone the repo [Behave Framework](https://github.com/WillCoutinho/behave-framework.git) and access the cloned folder.
 
 Install the package ``pipenv``: ``pip install pipenv``\
 Run the VirtualEnv using command: ``pipenv shell``\
@@ -77,7 +77,7 @@ API tests reports are available on browser.
 ##
 #### Git Repository
 
-GitLab: [*Behave Framework*](https://gitlab.com/Coutinho_W/behave-framework) 
+GitHub: [*Behave Framework*](https://github.com/WillCoutinho/behave-framework) 
 
 ##
 #### Libs
